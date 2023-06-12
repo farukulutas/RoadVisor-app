@@ -1,6 +1,6 @@
 # RoadVisor: SMART AR NAVIGATION
 
-[RoadVisor Website]([/path/to/logo.png](https://farukulutas.github.io/roadvisor/))
+[RoadVisor Website](https://farukulutas.github.io/roadvisor/)
 
 ## Introduction
 
