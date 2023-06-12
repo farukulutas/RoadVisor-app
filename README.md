@@ -1,38 +1,56 @@
-# RoadVisor
+# RoadVisor: SMART AR NAVIGATION
 
-RoadVisor is a mobile application that brings advanced features of new cars to older models. Its key feature is an AR-based navigation system that overlays directions onto the real world. It also provides information on traffic lights, signs, pedestrians, traffic congestion, and emergency services.
+![RoadVisor Logo](/path/to/logo.png)
 
-## Table of Contents
+## Introduction
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+RoadVisor is an innovative augmented reality navigation application designed to enhance your driving experience. This repository contains the source code for the RoadVisor application.
 
-## Installation
+## Getting Started
 
-Instructions for how to install this project
+### Prerequisites
 
-## Usage
+List the software and libraries that need to be installed (including versions where applicable).
 
-Instructions for how to use this project
+### Installation
 
-<p float="left">
-  <img src="https://github.com/AmmaarIftikhar/RoadVisor/blob/main/assets/screenshot-1.jpeg" width="250" height="250" />
-  <img src="https://github.com/AmmaarIftikhar/RoadVisor/blob/main/assets/screenshot-3.jpeg" width="250" height="250" />
-  <img src="https://github.com/AmmaarIftikhar/RoadVisor/blob/main/assets/screenshot-6.jpeg" width="250" height="250" />
-</p>
+Provide step-by-step instructions on how to set up the development environment and how to run the project locally for development and testing purposes.
 
-<p float="left">
-  <img src="https://github.com/AmmaarIftikhar/RoadVisor/blob/main/assets/screenshot-5.jpeg" width="250" height="250" />
-  <img src="https://github.com/AmmaarIftikhar/RoadVisor/blob/main/assets/screenshot-4.jpeg" width="250" height="250" />
-  <img src="https://github.com/AmmaarIftikhar/RoadVisor/blob/main/assets/screenshot-2.jpeg" width="250" height="250" />
-</p>
+## Features
 
-## Contributing
+* **Augmented Reality Navigation:** Overlay directions on the real-time camera view.
+* **Traffic Light & Sign Detection:** Detect traffic lights and signs in real-time.
+* **Pedestrian Detection:** Use computer vision techniques to detect pedestrians in the camera view.
+* **Emergency Assistance:** Enable users to quickly send SOS messages in case of emergencies or accidents.
 
-Guidelines for contributing to this project
+## Code Structure
+
+Describe the architecture of your application and how the main components interact with each other.
+
+## How to Contribute
+
+If you would like to contribute to the project, please review the CONTRIBUTING.md guide (if applicable). For major changes, please open an issue first to discuss the change you wish to make.
+
+## Reporting Bugs and Issues
+
+Please use the issue tracker provided by GitHub to send us bug reports or feature requests.
+
+## Team
+
+Our team comprises dedicated computer engineering students collaborating on this capstone project.
+
+* **Ahmet Faruk Ulutaş:** Full-stack Development & AR & ML
+* **Arda İçöz:** Frontend Development & AR
+
+## Project Advisors
+
+* **Dr. Hamdi Dibeklioğlu:** Supervisor Instructor
+* **Erhan Dolak:** Course Instructor
 
 ## License
 
-RoadVisor is licensed under the MIT License. See LICENSE for more information.
+Copyright © RoadVisor 2023
+
+## Contact
+
+For more information, please contact us at [noreply.roadvisor@gmail.com](mailto:noreply.roadvisor@gmail.com).
