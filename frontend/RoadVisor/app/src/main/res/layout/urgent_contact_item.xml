@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#212832">
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/urgent_contact_info"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/delete_urgent_contact_button"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_gravity="top|start"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/delete" />
+
+</LinearLayout>

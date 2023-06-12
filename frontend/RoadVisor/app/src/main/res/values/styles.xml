@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:navigationBarColor">@color/background</item>
+
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="PlaybackSeekBarTimeTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PlaybackSeekBarViewStyle">
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@color/black_70_opacity</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="BackButtonStyle">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <!-- Emergency Screen -->
+    <style name="EmergencyDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <!-- Add Urgent Contact Dialog -->
+    <style name="TextAppearance.App.TextInputLayout" parent="TextAppearance.Design.Hint">
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.App.HelperText" parent="TextAppearance.Design.HelperText">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- activity_register.xml -->
+    <style name="hey_signup_">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#F5F5F5</item>
+    </style>
+
+    <style name="already_hav">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- activity_forgot_password.xml -->
+    <style name="forgot_pass">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+
+    <style name="forgot_pass_header">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#F7F7F7</item>
+    </style>
+
+    <style name="forgot_pass_sub_header">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- activity_dashboard.xml -->
+    <style name="app_name">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="OvalImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- activity_account_settings.xml -->
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+</resources>

@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mapbox.vision.teaser">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:name=".TeaserApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="${appName}"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        tools:ignore="UnusedAttribute">
+
+        <activity android:name="com.mapbox.vision.teaser.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mapbox.vision.teaser.ForgotPasswordActivity"/>
+        <activity android:name="com.mapbox.vision.teaser.RegisterActivity"/>
+
+        <activity
+            android:name="com.mapbox.vision.teaser.MainActivity"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+
+        <activity
+            android:name="com.mapbox.vision.teaser.DashboardActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+
+        <activity android:name="com.mapbox.vision.teaser.AccountSettingsActivity"/>
+
+        <activity
+            android:name=".ar.ArMapActivity"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity">
+        </activity>
+
+        <activity
+            android:name=".ar.ArNavigationActivity"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity" />
+
+        <activity
+            android:name=".replayer.ArReplayNavigationActivity"
+            android:screenOrientation="sensorLandscape"
+            tools:ignore="LockedOrientationActivity"/>
+
+    </application>
+
+</manifest>

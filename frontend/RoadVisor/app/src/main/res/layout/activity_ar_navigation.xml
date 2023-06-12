@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mapbox.vision.teaser.ar.ArNavigationActivity">
+
+    <com.mapbox.vision.ar.view.gl.VisionArView
+        android:id="@+id/ar_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/ic_back"
+        android:layout_gravity="top|start"/>
+
+    <ImageView
+        android:layout_width="@dimen/ar_switch_width"
+        android:layout_height="@dimen/ar_switch_height"
+        android:id="@+id/ar_mode_view"
+        android:layout_marginStart="@dimen/ar_switch_margin_start"
+        android:layout_marginBottom="@dimen/ar_switch_margin_bottom"
+        android:layout_gravity="bottom|start"
+        android:visibility="gone"
+        tools:src="@drawable/ar_mode_lane"/>
+
+    <ImageView
+        android:layout_width="@dimen/ar_switch_width"
+        android:layout_height="@dimen/ar_switch_height"
+        android:id="@+id/ar_mode_emergency"
+        android:layout_marginStart="@dimen/ar_switch_margin_start"
+        android:layout_marginBottom="@dimen/ar_switch_margin_bottom"
+        android:layout_gravity="bottom|start"
+        android:src="@drawable/ar_mode_emergency"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:id="@+id/danger_sign"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="top|end"
+        android:src="@drawable/danger"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:id="@+id/prohibitory_sign"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="top|end"
+        android:src="@drawable/prohibitory"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:id="@+id/mandatory_sign"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="top|end"
+        android:src="@drawable/mandatory"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:id="@+id/other_sign"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="18dp"
+        android:layout_gravity="top|end"
+        android:src="@drawable/other"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="@dimen/ar_switch_width"
+        android:layout_height="@dimen/ar_switch_height"
+        android:id="@+id/red_light"
+        android:layout_marginStart="@dimen/ar_switch_margin_start"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="@dimen/ar_switch_margin_bottom"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/red_light"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="@dimen/ar_switch_width"
+        android:layout_height="@dimen/ar_switch_height"
+        android:id="@+id/yellow_light"
+        android:layout_marginStart="@dimen/ar_switch_margin_start"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="@dimen/ar_switch_margin_bottom"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/yellow_light"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="@dimen/ar_switch_width"
+        android:layout_height="@dimen/ar_switch_height"
+        android:id="@+id/green_light"
+        android:layout_marginStart="@dimen/ar_switch_margin_start"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="@dimen/ar_switch_margin_bottom"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/green_light"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/alert_layout"
+        android:layout_gravity="center"
+        android:background="@drawable/border_red"
+        android:visibility="invisible"/>
+
+</FrameLayout>
